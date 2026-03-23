@@ -1,0 +1,194 @@
+<!doctype html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-slate-200">
+    <!-- navbar -->
+    <header id="navbar" class="w-full h-20 flex justify-between items-center sticky bg-slate-400 top-0 z-50 sm: duration-300 ease-linear">
+      <div class="border-2 w-15 h-15 ml-5 lg-ml-10">
+        <img src="nr.jpg" alt="" />
+      </div>
+
+      <div class="w-60 lg:w-80">
+        <ul class="flex justify-between text-md lg:text-lg">
+          <li class="relative group">
+            <a href="#home" class="transition-all duration-300 group-hover:text-sky-950">home</a>
+            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+          </li>
+          <li class="relative group">
+            <a href="#project" class="transition-all duration-300 group-hover:text-sky-950">projects</a>
+            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+          </li>
+          <li class="relative group">
+            <a href="#service" class="transition-all duration-300 group-hover:text-sky-950">services</a>
+            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+          </li>
+          <li class="relative group">
+            <a href="#contact" class="transition-all duration-300 group-hover:text-sky-950">contact</a>
+            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="lg:mr-10 mr-5">
+        <a href="#" class="border-2 rounded-lg p-2 bg-slate-800 text-gray-300 transition-all duration-300 hover:shadow-xl/20 border-none">Hire me</a>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+
+    <section id="home" class="flex h-140 w-full md:bg-zinc-800 bg-[url(bghero.jpg)]">
+      <div class="md:flex-2 flex flex-col justify-center items-start md:bg-[url(bghero.jpg)] bg-no-repeat bg-cover">
+        <h1 class="text-7xl md:text-8xl font-sans font-normal ml-10">Full stack</h1>
+        <h1 class="text-6xl md:text-7xl font-sans font-normal ml-10">Web Developer</h1>
+
+        <p class="text-2xl italic mb-10 ml-24 mt-5">Hire me you'll be happy</p>
+
+        <a href="#" class="bg-black text-gray-400 rounded-md p-2 px-5 ml-35 text-xl cursor-pointer">Hire me</a>
+
+        <p class="text-4xl ml-45 my-2 italic mb-4">or</p>
+
+        <a href="#" class="bg-black text-gray-400 rounded-md p-2 px-5 ml-35 text-xl">find out</a>
+      </div>
+
+      <div class="md:flex-1 md:bg-gray-300 h-full flex justify-center items-center">
+        <div class="w-30 h-30 md:w-80 md:h-80 md:bg-white rounded-full md:bg-[url(profil.jpg)] bg-cover"></div>
+      </div>
+    </section>
+
+    <!-- cards Section -->
+
+    <section id="cards" class="flex flex-col md:flex-row md:h-100 white justify-center md:justify-around p-10 bg-slate-200 mt-10 items-center gap-10 md:gap-0">
+      <div class="w-60 h-80 flex flex-col z-10 shadow-[3px_3px_5px_3px_rgba(0,0,0,0.6)]">
+        <h1 class="text-center border-b-2 flex-1 flex justify-center items-center text-2xl font-bold">Total Project Done</h1>
+        <div class="h-full flex justify-center items-center flex-4">
+          <p class="flex justify-center items-center font-semibold text-8xl border-2 rounded-full w-50 h-50">275</p>
+        </div>
+      </div>
+      <div class="w-60 h-80 flex flex-col z-10 shadow-[3px_3px_5px_3px_rgba(0,0,0,0.6)]">
+        <h1 class="text-center border-b-2 flex-1 flex justify-center items-center text-2xl font-bold">Happy Clients</h1>
+        <div class="h-full flex justify-center items-center flex-4">
+          <p class="flex justify-center items-center font-semibold text-8xl border-2 rounded-full w-50 h-50">255</p>
+        </div>
+      </div>
+      <div class="w-60 h-80 flex flex-col z-10 shadow-[3px_3px_5px_3px_rgba(0,0,0,0.6)]">
+        <h1 class="text-center border-b-2 flex-1 flex justify-center items-center text-2xl font-bold">Experience Years</h1>
+        <div class="h-full flex justify-center items-center flex-4">
+          <p class="flex justify-center items-center font-semibold text-5xl border-2 rounded-full w-50 h-50">3 Years</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery section -->
+
+    <section id="project" class="mt-10 flex justify-center flex-col text-center">
+      <div class="grid w-full h-200 grid-cols-2 md:grid-cols-3 gap-0.5">
+        <div class="bg-orange-300 col-span-2 bg-[url(/img/prog1.jpg)] bg-cover"></div>
+        <div class="bg-orange-400 row-span-2 bg-[url(/img/prog5.jpg)] bg-cover"></div>
+        <div class="bg-orange-500 bg-[url(/img/prog3.jpg)] bg-cover"></div>
+        <div class="bg-orange-600 bg-[url(/img/prog4.jpg)] bg-cover"></div>
+      </div>
+    </section>
+
+    <!-- freelance service section -->
+
+    <section id="service" class="flex justify-center flex-col items-center mt-10">
+      <h1 class="text-3xl font-medium">My Price</h1>
+
+      <div class="flex flex-col md:flex-row">
+        <!-- basic plan-->
+        <div class="">
+          <div class="w-70 h-100 bg-zinc-500 m-10 flex flex-col items-center z-10 shadow-[3px_3px_5px_3px_rgba(0,0,0,0.6)] hover:scale-105 transition-transform">
+            <h1 class="text-4xl my-6 font-bold">Basic</h1>
+            <ul class="list-inside list-disc bg-zinc-400 p-4 w-full pb-0">
+              <li class="hover:scale-105 transition-transform mb-3">1 Halaman Landing Page</li>
+              <li class="hover:scale-105 transition-transform mb-3">Desain Responsif</li>
+              <li class="hover:scale-105 transition-transform mb-3">Integrasi Form Kontak</li>
+              <li class="hover:scale-105 transition-transform mb-3">Optimasi SEO Dasar</li>
+              <li class="hover:scale-105 transition-transform mb-3">Waktu Pengerjaan: 3-5 hari</li>
+              <li class="hover:scale-105 transition-transform mb-3">Satu kali revisi</li>
+            </ul>
+
+            <h1 class="text-center mt-5 font-normal italic text-3xl">Rp.750.000.00</h1>
+          </div>
+        </div>
+
+        <!-- pro plan -->
+        <div class="flex">
+          <div class="w-70 h-130 bg-zinc-400 m-10 flex flex-col items-center z-10 shadow-[3px_3px_5px_3px_rgba(0,0,0,0.6)] hover:scale-105 transition-transform">
+            <h1 class="text-4xl my-6 font-bold">Pro</h1>
+            <h1 class="-mt-6 mb-5 text-3xl">(Most Popular)</h1>
+            <ul class="list-inside list-disc bg-neutral-500 p-4 w-full pb-0">
+              <li class="hover:scale-105 transition-transform mb-3">Hingga 5 Halaman Website</li>
+              <li class="hover:scale-105 transition-transform mb-3">Desain Custom</li>
+              <li class="hover:scale-105 transition-transform mb-3">Animasi Scroll & Efek Interaktif</li>
+              <li class="hover:scale-105 transition-transform mb-3">Integrasi Google Maps & Media Sosial</li>
+              <li class="hover:scale-105 transition-transform mb-3">Kecepatan Loading Tinggi</li>
+              <li class="hover:scale-105 transition-transform mb-3">Revisi: 3 Kali</li>
+              <li class="hover:scale-105 transition-transform mb-3"><span>Bonus</span>: Gratis Maintenance 1 Bulan</li>
+            </ul>
+
+            <h1 class="text-center mt-5 font-normal italic text-3xl mb-4">Rp.1.250.000.00</h1>
+          </div>
+        </div>
+
+        <!-- Enterprise plan -->
+        <div class="flex">
+          <div class="w-70 h-150 bg-zinc-300 m-10 flex flex-col items-center z-10 shadow-[3px_3px_5px_3px_rgba(0,0,0,0.6)] hover:scale-105 transition-transform">
+            <h1 class="text-4xl my-6 font-bold">Enterprise</h1>
+            <h1 class="-mt-6 mb-5 text-3xl">(custom)</h1>
+            <ul class="list-inside list-disc bg-neutral-400 p-4 w-full pb-0">
+              <li class="hover:scale-105 transition-transform mb-3">Halaman Website Tidak Terbatas</li>
+              <li class="hover:scale-105 transition-transform mb-3">Dashboard Admin / CMS (Content Management System)</li>
+              <li class="hover:scale-105 transition-transform mb-3">Fitur E-Commerce (Keranjang Belanja & Payment Gateway)</li>
+              <li class="hover:scale-105 transition-transform mb-3">Keamanan Tingkat Tinggi (SSL & Proteksi Spam)</li>
+              <li class="hover:scale-105 transition-transform mb-3">Bantuan Setup Domain & Hosting</li>
+              <li class="hover:scale-105 transition-transform mb-3">Tidak Ada Batasan revisi</li>
+              <li class="hover:scale-105 transition-transform mb-3">Dukungan Prioritas 24/7</li>
+            </ul>
+
+            <h1 class="text-center mt-5 font-normal italic text-3xl mb-4">Rp.1.800.000.00</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <div id="contact" class="bg-zinc-300 flex flex-col items-center py-10">
+      <h2 class="text-2xl font-bold">Contact me</h2>
+
+      <form class="w-full max-w-full flex flex-col gap-4 mr-10 lg:max-w-3/4">
+        <div class="flex items-center gap-4">
+          <label class="w-24 text-right font-medium">Name</label>
+          <input type="text" class="flex-1 border-2 border-black px-2 py-1 outline-none focus:border-blue-500" />
+        </div>
+
+        <div class="flex items-center gap-4">
+          <label class="w-24 text-right font-medium"> Email<span class="text-red-500 ml-0.5">*</span> </label>
+          <input type="email" placeholder="you@example.com" class="flex-1 border-2 border-black px-2 py-1 outline-none focus:border-blue-500" />
+        </div>
+
+        <div class="flex items-start gap-4">
+          <label class="w-24 text-right font-medium mt-1">Message</label>
+
+          <textarea rows="5" class="flex-1 border-2 border-black px-2 py-1 outline-none focus:border-blue-500 resize-y"></textarea>
+        </div>
+
+        <div class="flex justify-end mt-2">
+          <button type="submit" class="bg-slate-300 px-4 py-2 rounded shadow hover:bg-slate-400 font-semibold">Send</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- footer section -->
+    <div class="bg-slate-400 w-full h-auto p-5 flex justify-center">
+      <p>This website made by <a href="#">NandangRustandi</a></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
